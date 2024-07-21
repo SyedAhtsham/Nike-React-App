@@ -1,5 +1,8 @@
 # Nike Shoes Single Page Website
 
+![Cover Image](https://github.com/SyedAhtsham/Nike-React-App/blob/main/nike.png)
+
+
 This project is a single page website designed to showcase Nike's shoe collection, built using React.js and Tailwind CSS. The website includes sections for Home, About Us, Products, Contact Us, Our Summer Collections, Popular Products, Special Offers, and Customer Testimonials.
 
 ## Table of Contents
@@ -38,7 +41,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/nike-shoes-website.git
+    git clone https://github.com/SyedAhtsham/Nike-React-App.git
     ```
 
 2. Navigate to the project directory:
@@ -103,4 +106,4 @@ License
 NA
 
 Contact
-For any questions or feedback, please contact us at syedahtsham@gmail.com
+For any questions or feedback, please contact us at syedahtshamqau@gmail.com
