@@ -37,7 +37,10 @@ export default {
       },
       screens: {
         "wide": "1440px"
-      }
+      },
+      grayscale: {
+        50: '50%',
+      },
     },
   },
   plugins: [],

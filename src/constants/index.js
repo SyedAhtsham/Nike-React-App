@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, customer3, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, customer3, shoe4, shoe5, shoe6, shoe7, shoe11, shoe12, shoe13, shoe14, shoe15, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -12,16 +12,22 @@ export const shoes = [
     {
         thumbnail: thumbnailShoe1,
         bigShoe: bigShoe1,
+        images: [shoe11, shoe12, shoe13, shoe14, shoe15],
     },
     {
         thumbnail: thumbnailShoe2,
         bigShoe: bigShoe2,
+        images: [shoe11, shoe12, shoe13, shoe14, shoe15],
     },
     {
         thumbnail: thumbnailShoe3,
         bigShoe: bigShoe3,
+        images: [shoe11, shoe12, shoe13, shoe14, shoe15],
     },
 ];
+
+
+
 
 export const statistics = [
     { value: '1k+', label: 'Brands' },
