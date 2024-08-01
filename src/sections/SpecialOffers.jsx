@@ -17,7 +17,7 @@ const SpecialOffers = () => {
       <div className="flex flex-1 flex-col">
 
         <h2 className=" font-palanquin text-4xl capitalize font-bold lg:max-w-lg">
-           <span className="text-coral-red">Special</span> Offer
+           <span className="text-coral-red">Special</span> Offers
         </h2>
         <p className="mt-4 lg:max-w-lg info-text">
           Ensuring premium comfort and style, our meticulously crafted footwear is designed to elevate your experience
