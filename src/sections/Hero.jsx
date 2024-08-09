@@ -10,7 +10,7 @@ import { useState } from "react"
 const Hero = () => {
 
   const [bigShoeImg, setBigShoeImg] = useState(bigShoe1)
-  
+
   return (
     <section id="home"
       className="w-full flex xl:flex-row flex-col justify-center min-h-screen
@@ -20,7 +20,7 @@ const Hero = () => {
         <p className="text-xl font-montserrat text-coral-red">
           Our Summer Collections
         </p>
-        <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold">
+        <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[58px] max-sm:leading-[62px] font-bold">
           <span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-10">The New Arrival</span>
           <br />
           <span className="text-coral-red inline-block mt-3"> Nike </span> Shoes
@@ -54,16 +54,16 @@ mt-20 gap-16">
           {
             shoes.map((shoe, index) => (
               <div key={index}>
-               
+
                 <ShoeCard imgURL={shoe}
                   changeBigShoeImage=
                   {(shoe) => setBigShoeImg(shoe)}
-                  
-                bigShoeImg ={bigShoeImg}
+
+                  bigShoeImg={bigShoeImg}
                 />
 
-                
-                </div>
+
+              </div>
             ))
           }
         </div>
